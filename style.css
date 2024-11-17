@@ -1,11 +1,60 @@
-a {
-  color: white;
-  
+/* General body styling */
+body {
+  background-image: url('Wallpapers.jpg'); /* Background image */
+  background-size: cover; /* Ensures the background image covers the entire page */
+  background-position: center; /* Center the background image */
+  color: white; /* Default text color */
+  font-family: Arial, sans-serif; /* Set a default font for the page */
+
 }
 
+.name {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+/* Styling for all links */
+a {
+  color: white; /* Set link color to white */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Center the text in all <td> elements */
 td {
   text-align: center;
-  
 }
 
 
+ul {
+  margin: 0px;
+  display: inline-block;
+  text-align: left; /* This ensures the list numbers align properly */
+}
+
+
+/* Adjust heading size for H1 */
+h1 {
+  color: yellow; /* Set color of headings to yellow */
+}
+
+/* Styling for images */
+img {
+  max-width: 100%; /* Ensure images are responsive */
+}
+
+
+p {
+  font-size: 12px; /* Set font size for paragraph text */
+  line-height: 1; /* Adjust line height for readability */
+}
+
+/* Styling for the emoji section */
+td h1 {
+  font-size: 30px; /* Large font size for emojis */
+
+}
