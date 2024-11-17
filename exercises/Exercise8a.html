@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <base href = "https://riki-kazu.github.io/">
+    </head>
+   <body>
+       <script>
+            var name = prompt("What is your name?");
+           
+            document.write('Hello ' + name + '<br>');
+
+            document.write('<br>')
+            var number1 = parseInt(prompt("First Number:"));
+            var number2 = parseInt(prompt("Second Number:"));
+            
+            document.write('The sum of ' + number1 + ' and ' + number2 + ' is ' + (number1 + number2));
+            document.write("<br>");
+
+            var a = parseInt(prompt("value of a:"));
+            var b = parseInt(prompt("value of b:"));
+            var c = parseInt(prompt("value of c:"));
+
+            var root1 = (-b + Math.sqrt(b ** 2 - (4 * a * c))) / 2 * a;
+            var root2 = (-b - Math.sqrt(b ** 2 - (4 * a * c))) / 2 * a;
+
+            if (a === 1){
+                var output = "";
+            }
+            else {
+                var output = a;
+            }
+
+            document.write("The solutions of " + output + "x<sup>2</sup> + " + b + "x + " + c + " = 0 are x = " + root1 + " and x = " + root2);
+
+       </script>
+
+       <p>Back to main page<a href = "index.html">Website</a></p>
+   </body>
+</html>
