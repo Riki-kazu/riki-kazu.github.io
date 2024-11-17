@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-  background-image: url('Wallpapers.jpg'); /* Background image */
+  background-image: url('images/Wallpapers.jpg'); /* Background image */
   background-size: cover; /* Ensures the background image covers the entire page */
   background-position: center; /* Center the background image */
   color: white; /* Default text color */
