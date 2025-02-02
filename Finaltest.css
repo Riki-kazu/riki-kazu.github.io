@@ -110,25 +110,27 @@
     justify-content: center;
     align-items: center;
 }
-
 .cart-modal-content {
     background-color: white;
     padding: 20px;
-    border-radius: 8px;
-    width: 80%;
-    max-width: 600px;
-    overflow-y: auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cart-header {
     font-size: 24px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .cart-item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .cart-item p {
@@ -149,10 +151,11 @@
 }
 
 .total-price {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
 }
+
 
 /* Buy via WhatsApp Button */
 .buy-via-whatsapp {
@@ -167,4 +170,36 @@
 
 .buy-via-whatsapp:hover {
     background-color: #0056b3;
+}
+
+
+.remove-button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+
+.buy-via-whatsapp, .close-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.buy-via-whatsapp:hover, .close-cart:hover {
+    background-color: #218838;
 }
